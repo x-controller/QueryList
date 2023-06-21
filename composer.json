@@ -1,0 +1,34 @@
+{
+    "name": "xcontroller/querylist",
+    "description": "Simple, elegant, extensible PHP Web Scraper (crawler/spider),Use the css3 dom selector,Based on phpQuery! 简洁、优雅、可扩展的PHP采集工具(爬虫)，基于phpQuery。",
+    "version": "4.3.0",
+    "keywords": [
+        "QueryList",
+        "phpQuery",
+        "spider"
+    ],
+    "homepage": "http://querylist.cc",
+    "require": {
+        "PHP": ">=7.1",
+        "jaeger/phpquery-single": "^1",
+        "xcontroller/g-http": "^1.7.3",
+        "ext-dom": "*",
+        "tightenco/collect": ">5.0"
+    },
+    "suggest": {
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "QL\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
