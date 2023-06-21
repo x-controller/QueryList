@@ -6,6 +6,8 @@
 
 # QueryList
 
+## Now Can Use In Latest Laravel Project.
+
 `QueryList` is a simple, elegant, extensible PHP Web Scraper (crawler/spider) ,based on phpQuery.
 
 [API Documentation](https://github.com/jae-jae/QueryList/wiki)
